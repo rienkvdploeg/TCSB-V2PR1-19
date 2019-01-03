@@ -50,7 +50,6 @@ data = results[0]['Data']
 
 # Modify if needed for your purpose! This is to cleanup data like "39.7 C" or "36.4%"
 data=data.rstrip(' %C')
-print("..."+data+"...")
 
 if debug:
     print("Request:  ", resp.request.url)
